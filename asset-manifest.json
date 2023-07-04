@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sjoshi91119/social-media-application/static/css/main.d723480e.css",
+    "main.js": "/sjoshi91119/social-media-application/static/js/main.9d52ba87.js",
+    "static/js/787.abd8061d.chunk.js": "/sjoshi91119/social-media-application/static/js/787.abd8061d.chunk.js",
+    "index.html": "/sjoshi91119/social-media-application/index.html",
+    "main.d723480e.css.map": "/sjoshi91119/social-media-application/static/css/main.d723480e.css.map",
+    "main.9d52ba87.js.map": "/sjoshi91119/social-media-application/static/js/main.9d52ba87.js.map",
+    "787.abd8061d.chunk.js.map": "/sjoshi91119/social-media-application/static/js/787.abd8061d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d723480e.css",
+    "static/js/main.9d52ba87.js"
+  ]
+}
