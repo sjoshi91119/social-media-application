@@ -96,10 +96,13 @@ body {
 
 .detail-container h3 {
   margin-top: 0;
+  color: white;
 }
-
+.details h5 {
+  color: white;
+}
 .detail-container img {
-  width: 190px;
+  width: 250px;
   height: 200px;
   margin-top: 10px;
   margin-bottom: 10px;

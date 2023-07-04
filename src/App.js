@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import Home from "./components/Home.js/Home";
+import Detail from "./components/Details/Detail";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <div className="container">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/item/:id" element={<Detail />} />
+          </Routes>
+        </div>
+      </Router>
+    </Provider>
   );
-}
+};
 
 export default App;
